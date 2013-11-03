@@ -27,7 +27,7 @@ body {
   margin-bottom: 60px;
 
   /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-  margin-top: -90px;
+  margin-top: 0;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -36,15 +36,14 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 250px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
+  top: -20px;
   left: 0;
   min-width: 100%;
-  height: 500px;
 }
 
 
@@ -92,6 +91,12 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+  .carousel .item {
+    height: 350px;
+  }
+  .carousel-inner > .item > img {
+    top: -20px;
+  }
 
   /* Remove the edge padding needed for mobile */
   .marketing {
@@ -118,11 +123,35 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
-
 }
 
 @media (min-width: 992px) {
+  .carousel .item {
+    height: 450px;
+  }
+  .carousel-inner > .item > img {
+    top: -40px;
+  }
+
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 992px) {
+  .featurette-image {
+    margin: 0 auto;
+    width: 400px;
+  }
+}
+
+@media (max-width: 767px) {
+  .featurette-divider {
+    margin: 30px 0 50px 0;
+  }
+
+  .featurette-image {
+    margin: 0 auto;
+    width: 200px;
   }
 }

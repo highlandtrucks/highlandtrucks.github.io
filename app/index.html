@@ -14,6 +14,8 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bower_components/blueimp-gallery/css/blueimp-gallery.css">
+    <link rel="stylesheet" href="bower_components/blueimp-bootstrap-image-gallery/css/bootstrap-image-gallery.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 </head>
@@ -112,7 +114,44 @@
         </div>
         <div class="col-md-8 col-md-pull-4">
           <h2 class="featurette-heading">Modifications. <span class="text-muted">We do crazy mods on your little baby jeep. It won't just go on mountains, it will be able to move them.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Modifications image gallery</h3>
+          <div class="featurette-gallery">
+            <a href="images/modifications/1112.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/1112.jpg" width="100">
+            </a>
+            <a href="images/modifications/1144.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/1144.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010075.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010075.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010080.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010080.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010098.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010098.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010111.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010111.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010116.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010116.jpg" width="100">
+            </a>
+            <a href="images/modifications/P1010120.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P1010120.jpg" width="100">
+            </a>
+            <a href="images/modifications/P4040077.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P4040077.jpg" width="100">
+            </a>
+            <a href="images/modifications/P4040085.jpg" data-gallery="#blueimp-gallery-modifications">
+              <img src="images/modifications/P4040085.jpg" width="100">
+            </a>
+          </div>
         </div>
       </div>
 
@@ -128,66 +167,104 @@
             Fishus camper is an Icelandic production made of fiberglass. Fishus is light, strong and especially suitable for highland traveling. Sleeping area for four persons. One upper bed and one lower bed i.e. table is taken down and the benchpads are laid over the table.The roof is elevated by air cylinders.
           </p>
         </div>
-        <div class="col-md-4">
-          <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="#campers-equipped" data-toggle="tab">Fully equipped</a></li>
-            <li><a href="#campers-without" data-toggle="tab">Without interior</a></li>
-          </ul>
-        </div>
-        <div class="col-md-8">
+      </div>
+      <div class="row">
+        <div class="col-md-12">
           <!-- <p>Fishus is sold without interior or fully equipped.</p> -->
 
-          <p>Measurements for Fishus:</p>
-          <ul>
-            <li>Length on a platform of a car 2 meters</li>
-            <li>Width (floor) 1,4 meters</li>
-            <li>Width (above platform) 2 meters</li>
-            <li>Total length 3 meters</li>
-            <li>Height, roof down 1,4 meters</li>
-            <li>Height, roof up 1,90 meters</li>
-            <li>Weight without interior 155 kg</li>
-            <li>Approx weight with interior 350 kg</li>
-            <li>Upper sleeping area 1,25 x 1,90 meters</li>
-            <li>Lower sleeping area 1,25 x 1,90 meters</li>
-            <li>Volume 10 m3</li>
-          </ul>
+          <div class="col-md-6">
+            <h4>Measurements for campers</h4>
+            <ul>
+              <li>Length on a platform of a car 2 meters</li>
+              <li>Width (floor) 1,4 meters</li>
+              <li>Width (above platform) 2 meters</li>
+              <li>Total length 3 meters</li>
+              <li>Height, roof down 1,4 meters</li>
+              <li>Height, roof up 1,90 meters</li>
+              <li>Weight without interior 155 kg</li>
+              <li>Approx weight with interior 350 kg</li>
+              <li>Upper sleeping area 1,25 x 1,90 meters</li>
+              <li>Lower sleeping area 1,25 x 1,90 meters</li>
+              <li>Volume 10 m3</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#campers-equipped" data-toggle="tab">Fully equipped</a></li>
+              <li><a href="#campers-without" data-toggle="tab">Without interior</a></li>
+            </ul>
 
-          <div class="tab-content">
-            <div class="tab-pane fade active in" id="campers-equipped">
-              <ul>
-                <li>Shell, fiberglass</li>
-                <li>Top (roof)</li>
-                <li>Rubber fabric (with windows) between top and sides</li>
-                <li>Windows</li>
-                <li>Door, plexiglass with locking</li>
-                <li>Protective edge above door</li>
-                <li>Box, fiberglass for gas containers</li>
-                <li>Top lifting equipment (air cylinders)</li>
-                <li>Pump, air valve and pressure regulator</li>
-              </ul>
+            <div class="tab-content">
+              <div class="tab-pane fade active in" id="campers-equipped">
+                <ul>
+                  <li>Shell, fiberglass</li>
+                  <li>Top (roof)</li>
+                  <li>Rubber fabric (with windows) between top and sides</li>
+                  <li>Windows</li>
+                  <li>Door, plexiglass with locking</li>
+                  <li>Protective edge above door</li>
+                  <li>Box, fiberglass for gas containers</li>
+                  <li>Top lifting equipment (air cylinders)</li>
+                  <li>Pump, air valve and pressure regulator</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="campers-without">
+                <ul>
+                  <li>Ventilation hatch</li>
+                  <li>Fiberglass cabinet for gas stove, refrigerator and sink</li>
+                  <li>Corner cabinet, fiberglass</li>
+                  <li>Cabinet for storage and widening of upper sleeping area</li>
+                  <li>Level, aluminum</li>
+                  <li>Window hatch</li>
+                  <li>Cabinet doors MDF, plastic sheathed (oak like)</li>
+                  <li>Carpet, sides and top</li>
+                  <li>Floor coverings</li>
+                  <li>Foam mattress 10 cm with durable covering</li>
+                  <li>Bench, 10 cm foam pads</li>
+                  <li>Table MDF plastic sheathed (oak like)</li>
+                  <li>12V press refrigerator with freezer compartment</li>
+                  <li>Webasto oil center</li>
+                  <li>Light on both sides</li>
+                  <li>Sink, water pump and two gas stoves</li>
+                  <li>10 ltr watertank</li>
+                  <li>12 V battery</li>
+                </ul>
+              </div>
             </div>
-            <div class="tab-pane fade" id="campers-without">
-              <ul>
-                <li>Ventilation hatch</li>
-                <li>Fiberglass cabinet for gas stove, refrigerator and sink</li>
-                <li>Corner cabinet, fiberglass</li>
-                <li>Cabinet for storage and widening of upper sleeping area</li>
-                <li>Level, aluminum</li>
-                <li>Window hatch</li>
-                <li>Cabinet doors MDF, plastic sheathed (oak like)</li>
-                <li>Carpet, sides and top</li>
-                <li>Floor coverings</li>
-                <li>Foam mattress 10 cm with durable covering</li>
-                <li>Bench, 10 cm foam pads</li>
-                <li>Table MDF plastic sheathed (oak like)</li>
-                <li>12V press refrigerator with freezer compartment</li>
-                <li>Webasto oil center</li>
-                <li>Light on both sides</li>
-                <li>Sink, water pump and two gas stoves</li>
-                <li>10 ltr watertank</li>
-                <li>12 V battery</li>
-              </ul>
-            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Campers image gallery</h3>
+          <div class="featurette-gallery">
+            <a href="images/campers/868.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/868.jpg" width="100">
+            </a>
+            <a href="images/campers/869.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/869.jpg" width="100">
+            </a>
+            <a href="images/campers/874.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/874.jpg" width="100">
+            </a>
+            <a href="images/campers/1097.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/1097.jpg" width="100">
+            </a>
+            <a href="images/campers/1106.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/1106.jpg" width="100">
+            </a>
+            <a href="images/campers/1130.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/1130.jpg" width="100">
+            </a>
+            <a href="images/campers/2005 07-08 009.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/2005 07-08 009.jpg" width="100">
+            </a>
+            <a href="images/campers/2006 04 078.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/2006 04 078.jpg" width="100">
+            </a>
+            <a href="images/campers/Juli 2004 111.jpg" data-gallery="#blueimp-gallery-campers">
+              <img src="images/campers/Juli 2004 111.jpg" width="100">
+            </a>
           </div>
         </div>
       </div>
@@ -199,8 +276,30 @@
           <img class="img-circle featurette-image img-responsive" src="images/content/accessories.jpg">
         </div>
         <div class="col-md-8 col-md-pull-4">
-          <h2 class="featurette-heading">Accessories. <span class="text-muted">We make front grills, panels on your little jeep to give it a mean look.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">Accessories. <span class="text-muted">We make front grills and panels on your little jeep to give it a mean look.</span></h2>
+          <!-- <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p> -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Accessories image gallery</h3>
+          <div class="featurette-gallery">
+            <a href="images/accessories/IMGP3533.jpg" data-gallery="#blueimp-gallery-accessories">
+              <img src="images/accessories/IMGP3533.jpg" width="100">
+            </a>
+            <a href="images/accessories/IMGP3537.jpg" data-gallery="#blueimp-gallery-accessories">
+              <img src="images/accessories/IMGP3537.jpg" width="100">
+            </a>
+            <a href="images/accessories/IMGP3540.jpg" data-gallery="#blueimp-gallery-accessories">
+              <img src="images/accessories/IMGP3540.jpg" width="100">
+            </a>
+            <a href="images/accessories/IMGP3577.jpg" data-gallery="#blueimp-gallery-accessories">
+              <img src="images/accessories/IMGP3577.jpg" width="100">
+            </a>
+            <a href="images/accessories/IMGP3582.jpg" data-gallery="#blueimp-gallery-accessories">
+              <img src="images/accessories/IMGP3582.jpg" width="100">
+            </a>
+          </div>
         </div>
       </div>
 
@@ -225,11 +324,103 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2013 Highland trucks.</p>
+        <p>&copy; 2013 Highland Trucks.</p>
       </footer>
 
     </div><!-- /.container -->
 
+    <div id="blueimp-gallery-accessories" class="blueimp-gallery">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <div class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next">
+                Next
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="blueimp-gallery-modifications" class="blueimp-gallery">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <div class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next">
+                Next
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="blueimp-gallery-campers" class="blueimp-gallery">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <div class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next">
+                Next
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -243,5 +434,12 @@
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-</body>
+    <script src="bower_components/blueimp-gallery/js/blueimp-gallery.js"></script>
+    <script src="bower_components/blueimp-gallery/js/jquery.blueimp-gallery.js"></script>
+    <script src="bower_components/blueimp-bootstrap-image-gallery/js/bootstrap-image-gallery.js"></script>
+
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <!-- endbuild -->
+  </body>
 </html>

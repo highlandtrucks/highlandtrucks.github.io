@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for img in $(find . -name "*.jpg")
+do
+    convert -sample 100x100 "$img" "$(dirname "$img")/thumb_$(basename "$img")"
+done

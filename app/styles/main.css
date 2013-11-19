@@ -159,3 +159,21 @@ body {
     width: 200px;
   }
 }
+
+
+/* Gallery hacking
+------------------------- */
+
+.blueimp-gallery .modal-footer .btn {
+  position: relative;
+  z-index: 3;
+}
+.blueimp-gallery .modal-footer .modal-description {
+  bottom: 10px;
+  padding: 0 150px;
+  margin-left: -20px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 2;
+}

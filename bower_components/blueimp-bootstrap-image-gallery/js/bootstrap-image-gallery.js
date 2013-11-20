@@ -44,6 +44,7 @@
             }
             var that = this,
                 modalTemplate = this.container.children('.modal'),
+                description = this.getItemProperty(obj, 'description'),
                 modal = modalTemplate.clone().show()
                     .on('click', function (event) {
                         // Close modal if click is outside of modal-content:
@@ -62,6 +63,7 @@
                     modal.addClass('in');
                 }, factoryInterface);
             modal.find('.modal-title').text(element.title || String.fromCharCode(160));
+            modal.find('.modal-description').html(description || String.fromCharCode(160));
             modal.find('.modal-body').append(element);
             return modal[0];
         },

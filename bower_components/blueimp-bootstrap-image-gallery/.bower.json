@@ -1,6 +1,5 @@
 {
   "name": "blueimp-bootstrap-image-gallery",
-  "version": "3.0.1",
   "title": "Bootstrap Image Gallery",
   "description": "Bootstrap Image Gallery is an extension to blueimp Gallery, a touch-enabled, responsive and customizable image and video gallery. It displays images and videos in the modal dialog of the Bootstrap framework, features swipe, mouse and keyboard navigation, transition effects, fullscreen support and on-demand content loading and can be extended to display additional content types.",
   "keywords": [
@@ -39,27 +38,28 @@
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
-  "devDependencies": {
-    "uglify-js": "2.4.0",
-    "less": "1.5.0-b4"
-  },
   "dependencies": {
     "jquery": ">=1.9.0",
     "bootstrap": ">=3.0.0",
-    "blueimp-gallery": ">=2.11.0"
+    "blueimp-gallery": ">=2.12.0"
   },
   "main": [
-    "./css/bootstrap-image-gallery",
-    "./img/loading.gif",
-    "./js/bootstrap-image-gallery.js"
+    "css/bootstrap-image-gallery",
+    "img/loading.gif",
+    "js/bootstrap-image-gallery.js"
   ],
-  "_release": "3.0.1",
+  "ignore": [
+    "/*.*",
+    "css/demo.css",
+    "js/demo.js"
+  ],
+  "_release": "05c50fe3b9",
   "_resolution": {
-    "type": "version",
-    "tag": "3.0.1",
-    "commit": "709747c9b888b4dddfbceb521c3924d969c68df6"
+    "type": "branch",
+    "branch": "master",
+    "commit": "05c50fe3b9bdcacd53290dd70cf806e442cf2dcf"
   },
-  "_source": "git://github.com/blueimp/Bootstrap-Image-Gallery.git",
-  "_target": "~3.0.1",
-  "_originalSource": "blueimp-bootstrap-image-gallery"
+  "_source": "git@github.com:highlandtrucks/Bootstrap-Image-Gallery.git",
+  "_target": "master",
+  "_originalSource": "git@github.com:highlandtrucks/Bootstrap-Image-Gallery.git"
 }

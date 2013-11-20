@@ -90,6 +90,11 @@ body {
   margin-bottom: 5px;
 }
 
+.featurette h4 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
